@@ -1,0 +1,28 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://172.31.34.51:8501
+  External URL: http://15.164.94.157:8501
+
+RandomForestClassifier()
+[[ 3.   88.   58.   11.   54.   24.    0.26 22.  ]]
+[0]
+RandomForestClassifier()
+[[ 3.   88.   58.   11.   54.   24.    0.26 22.  ]]
+[0]
+RandomForestClassifier()
+[[ 3.   88.   58.   11.   54.   24.    0.26 22.  ]]
+[0]
+  Stopping...
+/home/ubuntu/anaconda3/envs/streamlit/lib/python3.7/site-packages/sklearn/base.py:334: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/ubuntu/anaconda3/envs/streamlit/lib/python3.7/site-packages/sklearn/base.py:334: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/ubuntu/anaconda3/envs/streamlit/lib/python3.7/site-packages/sklearn/base.py:334: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/ubuntu/anaconda3/envs/streamlit/lib/python3.7/site-packages/sklearn/base.py:334: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/ubuntu/anaconda3/envs/streamlit/lib/python3.7/site-packages/sklearn/base.py:334: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/ubuntu/anaconda3/envs/streamlit/lib/python3.7/site-packages/sklearn/base.py:334: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
