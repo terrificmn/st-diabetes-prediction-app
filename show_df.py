@@ -15,13 +15,13 @@ import joblib
 
 from df_load_func import df_load 
 
-def run_df_load():
+def run_df_show():
     # df = pd.read_csv('data/Car_Purchasing_Data.csv', encoding='ISO-8859-1')
     # df = df.drop(['Customer e-mail', 'Gender'], axis=1)
         
     df = df_load()
-    st.dataframe(df)
-
+    
+    
     multi_list = []
     for column in df.columns:
         multi_list.append(column)
@@ -37,6 +37,6 @@ def run_df_load():
         
         st.dataframe(selectedDf)
 
-    model = load_model('data/car.h5')
+    #model = load_model('data/car.h5')
     #print(model.summary())
 

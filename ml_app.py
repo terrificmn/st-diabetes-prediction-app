@@ -25,13 +25,6 @@ from df_load_func import df_load
 
 # 예측 본론
 
-# 학습 => 오차를 줄이는 것
-# validataion은 에포크 끝난 (학습 1회 끝남) 문제를 주고, 계산만 함
-# 정답을 알려주지 않음, 
-
-# 예제 데이터
-#새로운 고객 데이터가 있습니다. 이 사람은 차량을 얼마정도 구매 가능한지 예측하시오.
-#여자이고, 나이는 38, 연봉은 90000, 카드빚은 2000, 순자산은 500000 일때, 어느정도의 차량을 구매할 수 있을지 예측하시오.
 def run_ml_app():
 
     st.subheader('Machine Learning')
@@ -61,5 +54,11 @@ def run_ml_app():
     # debt = st.number_input('카드빚을 입력하세요', min_value=0)
     # worth = st.number_input('순 자산을 입력하세요', min_value=0)
 
+    st.dataframe(df)
+        # 컬럼 들....
+        # 컬럼들 밸류 랜덤으로 뽑아서 예측하는 쪽으로 해보기;;;
+        
+        # Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin,
+        # BMI, DiabetesPedigreeFunction, Age, 
     if st.button('예측하기'):
         pass

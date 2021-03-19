@@ -14,7 +14,7 @@ import pickle
 import joblib
 
 # 주요 함수들 모듈화 임포트 
-from func_df_load import run_df_load
+from show_df import run_df_show
 from search_app import run_search
 from corr_app import show_corr
 from ml_app import run_ml_app
@@ -37,14 +37,13 @@ def main():
         pass
 
     if select_choice == '자료 보기(데이터프레임)':
-        run_df_load()
+        run_df_show()
     
     elif select_choice == '상관관계 분석':
         show_corr()
 
     elif select_choice == '예측하기':
         run_ml_app()
-        
 
 
 if __name__ == '__main__':  

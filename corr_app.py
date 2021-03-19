@@ -61,7 +61,8 @@ def show_corr():
             df_column = df[ column_list ]
             print(column_list)
             
-            #pairplot 화면에 안 뿌려짐
+            #pairplot 은 변수에 저장한 후에 st.pyplot()으로 해야지 됨
+            # 다른 차트 하듯이 하면 표시가 안됨
             
             pairplot = sb.pairplot(data = df_column)
             st.pyplot(pairplot)
@@ -71,9 +72,4 @@ def show_corr():
 
     elif selection_nbr == 1:
         st.warning('2개 이상 선택을 해주세요')
-        # if selectionOfUser == radio_list[0]:
-        #     max_salary = df.loc[ df['Annual Salary'] == df['Annual Salary'].max() , ['Customer Name', 'Country', 'Age', 'Annual Salary']]
-        #     st.text(max_salary)
-        # elif selectionOfUser == radio_list[1]:
-        #     min_salary = df.loc[ df['Annual Salary'] == df['Annual Salary'].min() , ['Customer Name', 'Country', 'Age', 'Annual Salary']]    
-        #     st.text(min_salary)
+        
